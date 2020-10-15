@@ -5,4 +5,4 @@ def home_view(request):
 	name = "Bob"
 	context = {'name': 'Dave'}
 
-	return render(request, 'base.html', context)
+	return render(request, 'home.html', context)
